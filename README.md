@@ -24,8 +24,10 @@ Każdy level charakteryzuje się kilkoma atrybutami:
 Level rośnie wraz z ilością złapnych przedmiotów - zaliczają sie do nich wszystkie typy jedzenia oprócz oczywiście obrzydliwości.
 
 # Kilka słów o architekturze gry
+```
 plik html: src/index.html
 plik js: src/app/app.ts
+```
 
 Głowną jednostką zarządzającą grą jest klasa Game (src/app/game/Game.ts).
 Utworzony obiekt typu Game ma za zadanie komunikować ze sobą dwa niezależne moduły gry: 
