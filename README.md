@@ -51,7 +51,7 @@ W grze znajduje się również moduł matematyczny (klasa MathService) odpowiedz
 - multiplayer: logika gry zakłada w przyszłości obsługę drugiego gracza - w kodzie znajduje się wiele odwołań do drugiego gracza,
 - timetrial: nie zawiera leveli, gra kończy się po określonym czasie, a gracz ma za zadanie zdobycie w tym czasie jak największej ilości punktów,
 - survival: jak długo uda się przetrwać graczowi z jednym życiem,
-i inne w zależności od pomysłów :-)
+- i inne w zależności od pomysłów :-)
 
 2. Do gry można łatwo dodać nowy moduł audio. Na tej samej zasadzie co moduł graficzny intepretowałby on klatkę gry na dany dźwięk (złapanie przedmiotu, zdobycie nowego levelu itp)
 3. Do gry można bardzo łatwo dodawać nowe poziomy (LevelRulesSerice), wystarczy dodać nową wartość do tablicy. Możliwe byłoby więc stworzenie konfiguratora poziomów dla użytkownika
