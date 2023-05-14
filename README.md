@@ -48,7 +48,7 @@ W grze znajduje się również moduł matematyczny (klasa MathService) odpowiedz
 
 # Rozwój gry
 1. Grę można rozwijać dalej tworząć do niej różne nowe tryby gry, np:
-- multiplayer: logika gry zakłada w przyszłości obsługę drugiego gracza - w kodzie znajduję się wiele odwołań do drugiego gracza,
+- multiplayer: logika gry zakłada w przyszłości obsługę drugiego gracza - w kodzie znajduje się wiele odwołań do drugiego gracza,
 - timetrial: nie zawiera leveli, gra kończy się po określonym czasie, a gracz ma za zadanie zdobycie w tym czasie jak największej ilości punktów,
 - survival: jak długo uda się przetrwać graczowi z jednym życiem,
 i inne w zależności od pomysłów :-)
