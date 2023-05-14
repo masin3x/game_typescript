@@ -24,6 +24,7 @@ Każdy level charakteryzuje się kilkoma atrybutami:
 Level rośnie wraz z ilością złapnych przedmiotów - zaliczają sie do nich wszystkie typy jedzenia oprócz oczywiście obrzydliwości.
 
 # Kilka słów o architekturze gry
+Główne pliki gry:
 ```
 plik html: src/index.html
 plik js: src/app/app.ts
