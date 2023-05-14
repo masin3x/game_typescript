@@ -33,14 +33,14 @@ plik js: src/app/app.ts
 
 Głowną jednostką zarządzającą grą jest klasa Game (src/app/game/Game.ts).
 Utworzony obiekt typu Game ma za zadanie komunikować ze sobą dwa niezależne moduły gry: 
-- moduł logiczny: To tutaj zawarta jest cała logika gry i odbywają sie wszystkie obliczenia. Moduł ten przechowuje aktualny stan gry. Najważniejsze klasy:
-  - StateService: Odpowiada za modyfikacje stanu(State.ts) gry oraz tworzy klatkę(Frame.ts) do wyrenderowania.
-  - PlayerService: Odpowiada za modyfikacje stanu gracza
-  - ItemService: Odpowiada za modyfikacje stanu przedmiotów
-- moduł graficzny: Odpowiedzialny jest za renderowanie grafiki. Najważniejsze klasy:
-  - RendererService: Odpowiada za tłumaczenie stanu i klatki gry dla silnika graficznego
-  - GraphicsEngineBase: Klasa abstrakcyjna odpowiedzialna za renderowanie obrazu.
-  - PixiGraphicsEngine: Klasa dziedzicząca z GraphicsEngineBase. Zawiera w sobie odwołania do silnika graficznego - w tym wypadku PixiJS.
+- moduł logiczny: to tutaj zawarta jest cała logika gry i odbywają sie wszystkie obliczenia. Moduł ten przechowuje aktualny stan gry. Najważniejsze klasy:
+  - StateService: odpowiada za modyfikacje stanu(State.ts) gry oraz tworzy klatkę(Frame.ts) do wyrenderowania.
+  - PlayerService: odpowiada za modyfikacje stanu gracza
+  - ItemService: odpowiada za modyfikacje stanu przedmiotów
+- moduł graficzny: odpowiedzialny jest za renderowanie grafiki. Najważniejsze klasy:
+  - RendererService: odpowiada za tłumaczenie stanu i klatki gry dla silnika graficznego
+  - GraphicsEngineBase: klasa abstrakcyjna odpowiedzialna za renderowanie obrazu.
+  - PixiGraphicsEngine: klasa dziedzicząca z GraphicsEngineBase. Zawiera w sobie odwołania do silnika graficznego - w tym wypadku PixiJS.
 
 Silnik graficzny gry nie ma żadnego powiązania z logiką gry. Takie podejście umożliwi w przyszłości opcjonalą łatwą zmiane silnika gry lub przeportowanie gry na inną platforme. (np. mobilną)
 
@@ -48,9 +48,9 @@ W grze znajduje się również moduł matematyczny (klasa MathService) odpowiedz
 
 # Rozwój gry
 1. Grę można rozwijać dalej tworząć do niej różne nowe tryby gry, np:
-- multiplayer: Logika gry zakłada w przyszłości obsługę drugiego gracza - w kodzie znajduję się wiele odwołań do drugiego gracza,
-- timetrial: Nie zawiera leveli, Gra kończy się po określonym czasie, a gracz ma za zadanie zdobycie w tym czasie jak największej ilości punktów,
-- survival: Jak długo uda się przetrwać graczowi z jednym życiem,
+- multiplayer: logika gry zakłada w przyszłości obsługę drugiego gracza - w kodzie znajduję się wiele odwołań do drugiego gracza,
+- timetrial: nie zawiera leveli, Gra kończy się po określonym czasie, a gracz ma za zadanie zdobycie w tym czasie jak największej ilości punktów,
+- survival: jak długo uda się przetrwać graczowi z jednym życiem,
 i inne w zależności od pomysłów :-)
 
 2. Do gry można łatwo dodać nowy moduł audio. Na tej samej zasadzie co moduł graficzny intepretowałby on klatkę gry na dany dźwięk (złapanie przedmiotu, zdobycie nowego levelu itp)
