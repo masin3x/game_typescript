@@ -4,6 +4,7 @@
 ```
 npm install && npm start
 ```
+3. Po zakończeniu instalacji w przeglądarce powinna otworzyć się karta pod adresem http://localhost:1234
 
 # O grze
 W grze dostępnych jest 5 typów jedzenia:
@@ -24,7 +25,7 @@ Każdy level charakteryzuje się kilkoma atrybutami:
 Level rośnie wraz z ilością złapnych przedmiotów - zaliczają sie do nich wszystkie typy jedzenia oprócz oczywiście obrzydliwości.
 
 # Kilka słów o architekturze gry
-Główne pliki gry:
+Podstawowe pliki gry:
 ```
 plik html: src/index.html
 plik js: src/app/app.ts
