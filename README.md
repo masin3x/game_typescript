@@ -11,7 +11,7 @@ W grze dostępnych jest 5 typów jedzenia:
 - obrzydliwe (np. robaki,świńki łeb): złapane odejmują punkty graczowi (1,5 lub 10). Należy unikać tego jedzenia,
 - niespodzianki, mogą mieć dobry lub zły wpływ na gracza (losowo), więc nie ma obowiązku ich łapania:
   - świecące na zielono: złapane dają punkty graczowi (1,5 lub 10) oraz czasowo zwiększają lub zmniejszają szybkość gracza,
-  - świecące na niebiesko: złapane dają punkty graczowi (1,5 lub 10) oraz czasowo zwiększają lub zmniejszają wielkość gracza,
+  - świecące na niebiesko: złapane dają punkty graczowi (1,5 lub 10) oraz czasowo zwiększają lub zmniejszają rozmiar gracza,
 - regenerujące: świecą na czerwowo, złapane dają życie graczowi. Nie ma obowiązku łapania tego przedmiotu.
 
 W grze dostępnych jest 13 poziomów. 13 poziom to niestety ten pechowy level.
