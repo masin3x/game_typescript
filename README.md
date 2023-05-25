@@ -7,7 +7,8 @@ npm install && npm start
 3. Po zakończeniu instalacji w przeglądarce powinna otworzyć się karta pod adresem http://localhost:1234
 
 # O grze
-W grze dostępnych jest 5 typów jedzenia:
+Celem gry jest łapanie jedzenia spadającego z góry ekranu.
+Dstępnych jest 5 typów pożywienia:
 - pyszności (np. kurczak, piwo): złapane dodają punkty graczowi (1,5 lub 10), niezłapane odejmują życie,
 - obrzydliwe (np. robaki,świńki łeb): złapane odejmują punkty graczowi (1,5 lub 10). Należy unikać tego jedzenia,
 - niespodzianki, mogą mieć dobry lub zły wpływ na gracza (losowo), więc nie ma obowiązku ich łapania:
@@ -41,7 +42,5 @@ Utworzony obiekt typu Game ma za zadanie komunikować ze sobą dwa niezależne m
   - RendererService: odpowiada za tłumaczenie stanu i klatki gry dla silnika graficznego
   - GraphicsEngineBase: klasa abstrakcyjna odpowiedzialna za renderowanie obrazu.
   - PixiGraphicsEngine: klasa dziedzicząca z GraphicsEngineBase. Zawiera w sobie odwołania do silnika graficznego - w tym wypadku PixiJS.
-
-Silnik graficzny gry nie ma żadnego powiązania z logiką gry. Takie podejście umożliwi w przyszłości opcjonalą łatwą zmiane silnika gry lub przeportowanie gry na inną platforme. (np. mobilną)
 
 W grze znajduje się również moduł matematyczny (klasa MathService) odpowiedzialny za przeliczenia matematyczne jak np. detekcja kolizji czy liczenie prawdopodobieństwa.
