@@ -35,7 +35,7 @@ plik js: src/app/app.ts
 Głowną jednostką zarządzającą grą jest klasa Game (src/app/game/Game.ts).
 Utworzony obiekt typu Game ma za zadanie komunikować ze sobą dwa niezależne moduły gry: 
 - moduł logiczny: to tutaj zawarta jest cała logika gry i odbywają sie wszystkie obliczenia. Moduł ten przechowuje aktualny stan gry. Najważniejsze klasy:
-  - StateService: odpowiada za modyfikacje stanu (State.ts) gry oraz tworzy klatkę (Frame.ts) do wyrenderowania.
+  - StateService: odpowiada za modyfikacje stanu gry (State.ts) oraz  tworzy klatkę do wyrenderowania  (Frame.ts).
   - PlayerService: odpowiada za modyfikacje stanu gracza
   - ItemService: odpowiada za modyfikacje stanu przedmiotów
 - moduł graficzny: odpowiedzialny jest za renderowanie grafiki. Najważniejsze klasy:
