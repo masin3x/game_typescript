@@ -39,7 +39,7 @@ Utworzony obiekt typu Game ma za zadanie komunikować ze sobą dwa niezależne m
   - PlayerService: odpowiada za modyfikacje stanu gracza
   - ItemService: odpowiada za modyfikacje stanu przedmiotów
 - moduł graficzny: odpowiedzialny jest za renderowanie grafiki. Najważniejsze klasy:
-  - RendererService: odpowiada za tłumaczenie stanu i klatki gry dla silnika graficznego
+  - RendererService: odpowiada za tłumaczenie stanu (State.ts) i klatki gry (Frame.ts) dla silnika graficznego
   - GraphicsEngineBase: klasa abstrakcyjna odpowiedzialna za renderowanie obrazu.
   - PixiGraphicsEngine: klasa dziedzicząca z GraphicsEngineBase. Zawiera w sobie odwołania do silnika graficznego - w tym wypadku PixiJS.
 
