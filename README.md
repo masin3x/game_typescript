@@ -45,14 +45,3 @@ Utworzony obiekt typu Game ma za zadanie komunikować ze sobą dwa niezależne m
 Silnik graficzny gry nie ma żadnego powiązania z logiką gry. Takie podejście umożliwi w przyszłości opcjonalą łatwą zmiane silnika gry lub przeportowanie gry na inną platforme. (np. mobilną)
 
 W grze znajduje się również moduł matematyczny (klasa MathService) odpowiedzialny za przeliczenia matematyczne jak np. detekcja kolizji czy liczenie prawdopodobieństwa.
-
-# Rozwój gry
-1. Grę można rozwijać dalej tworząć do niej różne nowe tryby gry, np:
-- multiplayer: logika gry zakłada w przyszłości obsługę drugiego gracza - w kodzie znajduje się wiele odwołań do drugiego gracza,
-- timetrial: nie zawiera leveli, gra kończy się po określonym czasie, a gracz ma za zadanie zdobycie w tym czasie jak największej ilości punktów,
-- survival: jak długo uda się przetrwać graczowi z jednym życiem,
-- i inne w zależności od pomysłów :-)
-
-2. Do gry można łatwo dodać nowy moduł audio. Na tej samej zasadzie co moduł graficzny intepretowałby on klatkę gry na dany dźwięk (złapanie przedmiotu, zdobycie nowego levelu itp)
-3. Do gry można bardzo łatwo dodawać nowe poziomy (LevelRulesSerice), wystarczy dodać nową wartość do tablicy. Możliwe byłoby więc stworzenie konfiguratora poziomów dla użytkownika
-4. Dodanie menu głównego gry: zawierałoby ono wybór trybu gry oraz ustawienia (głośność audio itp.)
