@@ -1,0 +1,22 @@
+{
+  "name": "pixijs-app",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "prestart": "ncp src/public ./dist"
+  },
+  "author": "Marcin Długosz",
+  "license": "ISC",
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "pixi.js": "^7.2.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.0",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1",
+    "typescript": "^5.0.4"
+  }
+}
