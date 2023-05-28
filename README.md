@@ -8,7 +8,7 @@ npm install && npm start
 
 # O grze
 Celem gry jest łapanie jedzenia spadającego z góry ekranu.
-Dstępnych jest 5 typów pożywienia:
+Dostępnych jest 5 typów pożywienia:
 - pyszności (np. kurczak, piwo): złapane dodają punkty graczowi (1,5 lub 10), niezłapane odejmują życie,
 - obrzydliwe (np. robaki,świńki łeb): złapane odejmują punkty graczowi (1,5 lub 10). Należy unikać tego jedzenia,
 - niespodzianki, mogą mieć dobry lub zły wpływ na gracza (losowo), więc nie ma obowiązku ich łapania:
