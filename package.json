@@ -10,6 +10,7 @@
   "author": "Marcin Długosz",
   "license": "ISC",
   "dependencies": {
+    "@pixi/sound": "^5.1.2",
     "ncp": "^2.0.0",
     "pixi.js": "^7.2.4"
   },
